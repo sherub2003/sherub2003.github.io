@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  font-family: "Roboto";
+}
+
+.header_section {
+  box-sizing: border-box;
+  width: 100%;
+  border-top: 1px solid black;
+  background-color: aliceblue;
+}
+.header_section .container {
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+.header_section .container .logo {
+  width: 15px;
+}
+.header_section .container .menu_holder {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30PX;
+}
+.header_section .container .menu_holder .menu {
+  width: 60%;
+}
+.header_section .container .menu_holder .menu nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  margin: 20px;
+  gap: 20px;
+}
+.header_section .container .menu_holder .menu nav ul li {
+  margin: 0px 5px;
+}
+.header_section .container .menu_holder .menu nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  border-bottom: 2px solid transparent;
+  transition: all 0.4s ease;
+}
+.header_section .container .menu_holder .menu nav ul li a:hover {
+  border-bottom: 2px solid sage;
+}
+.header_section .container .menu_holder .cta_btn {
+  width: 25%;
+}
+.header_section .container .menu_holder .cta_btn button {
+  background: none;
+  border: 0;
+}
+
+.header_container {
+  background-color: aliceblue;
+  transition: all 500ms ease-in-out;
+}
+.header_container:hover {
+  box-shadow: 4px 10px 15px rgba(0, 0, 0, 0.1);
+}
+.header_container .container {
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 4px 10px 20px transparent;
+  margin: 40px 0px;
+  transition: all 500ms ease-in-out;
+}
+.header_container .container:hover {
+  box-shadow: 4px 10px 15px rgba(0, 0, 0, 0.1);
+}
+.header_container .nav {
+  gap: 100px;
+}
+
+.nav {
+  padding: 0px 10px;
+}
+
+.hero_container .container {
+  transition: all 500ms ease-in-out;
+}
+.hero_container .container:hover {
+  box-shadow: 4px 10px 15px rgba(0, 0, 0, 0.1);
+}
+.hero_container .container .hero {
+  background-color: aliceblue;
+}
+.container .Abt {
+  background-color: aliceblue;
+  transition: all 500ms ease-in-out;
+}
+.container .Abt:hover {
+  box-shadow: 4px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.Experiences_container {
+  padding: 50px 300px;
+  margin-top: 0px;
+}
+.Experiences_container .Exp {
+  margin-top: 50px;
+}
+
+.html {
+  background-color: aliceblue;
+  box-sizing: border-box;
+}
+
+.css {
+  background-color: aliceblue;
+  box-sizing: border-box;
+}
+
+.coding {
+  background-color: aliceblue;
+  box-sizing: border-box;
+}
+
+.exp_box {
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 4px 10px 20px transparent;
+  margin: 40px 0px;
+  transition: all 300ms ease-in-out;
+}
+.exp_box:hover {
+  box-shadow: 4px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.skill_container .IMG {
+  background-color: aliceblue;
+  transition: all 300ms ease-in-out;
+}
+.skill_container .IMG:hover {
+  box-shadow: 4px 10px 15px rgba(0, 0, 0, 0.1);
+}
+.skill_container .HARD {
+  background-color: aliceblue;
+  transition: all 300ms ease-in-out;
+}
+.skill_container .HARD:hover {
+  box-shadow: 4px 10px 15px rgba(0, 0, 0, 0.1);
+}
+.skill_container .SOFT {
+  background-color: aliceblue;
+  transition: all 300ms ease-in-out;
+}
+.skill_container .SOFT:hover {
+  box-shadow: 4px 10px 15px rgba(0, 0, 0, 0.1);
+}
+.skill_container .skill {
+  border-radius: 5px;
+  box-shadow: 6px 15px 25px transparent;
+  margin: 40px 0px;
+}
+
+.enroll_form {
+  padding: 100px 0px;
+}
+.enroll_form .main_form {
+  padding: 40px 100px;
+  background-color: aliceblue;
+}
+.enroll_form button[type=submit] {
+  width: 100%;
+}
+.enroll_form .form {
+  padding: 20px 50px;
+  background-color: aliceblue;
+  transition: all 300ms ease-in-out;
+}
+.enroll_form .form:hover {
+  box-shadow: 4px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.footer_container {
+  background-color: aliceblue;
+  padding: 10px 10px;
+}
+.footer_container .footer {
+  box-sizing: border-box;
+}/*# sourceMappingURL=style.css.map */

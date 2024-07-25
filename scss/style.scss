@@ -1,0 +1,304 @@
+@use "var";
+
+* {
+    font-family: "Roboto";
+}
+
+.header_section {
+    box-sizing: border-box;
+    width: 100%;
+    border-top: 1px solid black;
+    background-color: aliceblue;
+
+    .container {
+        margin: 0px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0px;
+
+        .logo {
+            width: 15px;
+
+        }
+
+        .menu_holder {
+            width: 50%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 30PX;
+
+            .menu {
+                width: 60%;
+
+                nav ul {
+                    display: flex;
+                    list-style: none;
+                    justify-content: space-between;
+                    margin: 20px;
+                    gap: 20px;
+
+                    li {
+                        margin: 0px 5px;
+
+                        a {
+                            text-decoration: none;
+                            color: black;
+                            font-size: 16px;
+                            font-weight: 400;
+                            border-bottom: 2px solid transparent;
+                            transition: all 0.4s ease;
+
+                            &:hover {
+                                border-bottom: 2px solid sage;
+                            }
+                        }
+                    }
+                }
+
+            }
+
+            .cta_btn {
+                width: 25%;
+
+                button {
+                    background: none;
+                    border: 0;
+
+                    // a{
+                    //     text-decoration: none;
+                    //     padding: 10px 20px;
+                    //     display: block;
+                    //     background-color:black;
+                    //     color: white;
+                    //     font-size: 11px;
+                    //     font-weight: 300;
+                    //     border-radius: 5px;
+                    //     line-height: 150%;
+
+                    //     &:hover{
+                    //         background-color:peach;
+                    //         color: white;
+                    //     }
+                    // }
+                }
+            }
+        }
+    }
+}
+
+.header_container {
+    background-color: aliceblue;
+    transition: all 500ms ease-in-out;
+
+    &:hover {
+        box-shadow: 4px 10px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .container {
+        padding: 30px;
+        border-radius: 5px;
+        box-shadow: 4px 10px 20px transparent;
+        margin: 40px 0px;
+        transition: all 500ms ease-in-out;
+
+        &:hover {
+            box-shadow: 4px 10px 15px rgba(0, 0, 0, 0.1);
+        }
+    }
+
+    .nav {
+        gap: 100px;
+        ;
+    }
+}
+
+.nav {
+    padding: 0px 10px;
+}
+
+
+.hero_container {
+    .container {
+        transition: all 500ms ease-in-out;
+
+        &:hover {
+            box-shadow: 4px 10px 15px rgba(0, 0, 0, 0.1);
+        }
+
+
+        .hero {
+            background-color: aliceblue;
+            // border-radius: 30px;
+
+        }
+
+        .h1 {
+            // background-color: chartreuse;
+        }
+
+    }
+
+}
+
+.about_section {
+    // background-color: rgb(196, 233, 200);
+
+}
+
+.container {
+    // padding: 100px 0px;
+
+    .img {
+        // background-color: black;
+        // box-shadow: 5px 5px 5px rgb(45, 100, 155);
+
+    }
+
+    .Abt {
+        background-color: aliceblue;
+        transition: all 500ms ease-in-out;
+
+        &:hover {
+            box-shadow: 4px 10px 15px rgba(0, 0, 0, 0.1);
+        }
+
+
+    }
+
+}
+
+.Experiences_container {
+    padding: 50px 300px;
+    margin-top: 0px;
+
+    .Exp {
+        // background-color: #97ed1e;
+        margin-top: 50px;
+    }
+}
+
+.html {
+    background-color: aliceblue;
+    box-sizing: border-box;
+}
+
+.css {
+    background-color: aliceblue;
+    box-sizing: border-box;
+}
+
+.coding {
+    background-color: aliceblue;
+    box-sizing: border-box;
+}
+
+.exp_box {
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 4px 10px 20px transparent;
+    margin: 40px 0px;
+    transition: all 300ms ease-in-out;
+
+    &:hover {
+        box-shadow: 4px 10px 15px rgba(0, 0, 0, 0.1);
+    }
+}
+
+
+
+
+.skill_container {
+
+    // box-shadow: 2px 4px 2px rgb(6, 6, 18);
+    .IMG {
+        background-color: aliceblue;
+        transition: all 300ms ease-in-out;
+
+        &:hover {
+            box-shadow: 4px 10px 15px rgba(0, 0, 0, 0.1);
+        }
+
+    }
+
+    .HARD {
+        background-color: aliceblue;
+        transition: all 300ms ease-in-out;
+
+        &:hover {
+            box-shadow: 4px 10px 15px rgba(0, 0, 0, 0.1);
+        }
+    }
+
+
+    .SOFT {
+        background-color: aliceblue;
+        transition: all 300ms ease-in-out;
+
+        &:hover {
+            box-shadow: 4px 10px 15px rgba(0, 0, 0, 0.1);
+        }
+
+    }
+
+    .skill {
+        // padding:30px;
+        border-radius: 5px;
+        box-shadow: 6px 15px 25px transparent;
+        margin: 40px 0px;
+        //  transition: all 300ms ease-in-out;
+        //  &:hover{
+        //     box-shadow:6px 15px 25px rgba(0, 0, 0, 0.1);
+    }
+}
+
+
+
+.enroll_form {
+    padding: 100px 0px;
+
+    // / background-color: rgb(12, 241, 241);
+    .container {
+        .row {
+            // padding: 10px 100px;
+        }
+
+
+        .main_form {
+            padding: 40px 100px;
+            background-color: aliceblue;
+
+        }
+
+        button[type="submit"] {
+            width: 100%;
+        }
+
+        .form {
+            padding: 20px 50px;
+            background-color: aliceblue;
+            transition: all 300ms ease-in-out;
+
+            &:hover {
+                box-shadow: 4px 10px 15px rgba(0, 0, 0, 0.1);
+            }
+
+        }
+
+
+    }
+
+}
+
+.footer_container {
+    background-color: aliceblue;
+    padding: 10px 10px;
+
+    .footer {
+        box-sizing: border-box;
+
+    }
+}
